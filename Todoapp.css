@@ -25,12 +25,13 @@ body{
     background-color: #fff;
 }
 
-.checkbox:hover {
+.checkbox-filled {
     background-color: #4aa;
 }
 
-.checkbox-filled {
+.checkbox:hover {
     background-color: #4aa;
+    border:2px solid #fff
 }
 
 .completed {
@@ -63,11 +64,4 @@ body{
     justify-content: space-between;
     border-radius: 4px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.075)
-}
-.checkbox {
-    width: 16px;
-    height: 16px;
-    border: 2px solid #4aa;
-    border-radius: 100%;
-    background-color: #fff;
 }
